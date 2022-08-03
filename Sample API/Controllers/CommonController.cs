@@ -18,13 +18,13 @@ namespace Sample_API.Controllers
             {
                 new Video() {
                     Id = 100,
-                    VideoUrl = "https://player.vimeo.com/video/736034733?h=1657d74e59",
+                    VideoUrl = "https://player.vimeo.com/video/736034733",
                     Title = "Awesome Birthday"
                     ,IsRequired = true,
                 },
                  new Video() {
                     Id = 200,
-                    VideoUrl = "https://player.vimeo.com/video/736035090?h=43f3c93b42"
+                    VideoUrl = "https://player.vimeo.com/video/736035090"
                     ,Title = "Halloween Fun",
                     IsRequired = false,
                  },
